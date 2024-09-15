@@ -1,0 +1,116 @@
+
+.imagen{
+    width: auto;
+    height: 700px;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+.registre{
+    width: 600px;
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    border: solid 2px grey;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px 0 black;   
+    margin-left: calc(50% - 300px);
+    
+}
+.w-100{
+    height: 600px;
+}
+.h1 ,h1{
+    color: #fff;
+    font-weight:bold;
+}
+
+.contenedor{
+    background-color: azure;
+    width: 100%;
+    height: 150px;
+}
+
+.piepagina{
+    width: 100%;
+    background-color: #0a141d ;
+}
+.piepagina .sub1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns:  repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.piepagina .sub1 .box h4{
+    color: #fff;
+    margin-bottom:25px;
+    font-size: 20px;
+}
+.piepagina .sub1 .box p{
+     color: #efefef;
+     margin-bottom: 10px;
+}
+.piepagina .sub1 .redsocial a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height:45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color:#0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.piepagina .sub1 .redsocial a:hover{
+    color: aqua;
+}
+.piepagina .sub2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.piepagina .sub2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px) {
+    .piepagina .sub1{
+        width: 90%;
+        grid-template-columns:  repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
+b{
+    color: #fff;
+    font-size: 20px;
+}
+.table{
+    width: 90%;
+    margin-left: 3rem;
+    margin-right: 2rem;
+    margin-bottom: 5rem;
+    color:#0a141d;
+    background: #fff;
+}
+
+.nav-link{
+    color: #fff;
+    background: #0d2033;
+    margin-left: 5px;
+    border-radius: 20px;
+}
+
+body{
+    background-image: url(../imagenes/fondo1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
