@@ -1,4 +1,6 @@
-const url = 'http://localhost:5000/api/'
+//const url = 'http://localhost:5000/api/'
+
+const url = 'https://repair-backend-1.onrender.com/api/'
 
 function sendRequest(endPoint, method, data){
     console.log(url+endPoint)
